@@ -15,7 +15,7 @@ Checkpoints for 6L/8L models are unavailable due to resource limits.
 ---
 
 ## Report
-A short report (`report/short_report.pdf`) is included, summarizing:
+A short report (`report/VALUE_BYPASS_ATTENTION_A_SIMPLE_VALUE_PATH_VARIANT_FOR_BERT_ON_SQUAD_V1.pdf`) is included, summarizing:
 - Motivation and method
 - Pretraining and fine-tuning setup
 - Results (mean ± std across seeds)
@@ -82,7 +82,7 @@ A short report (`report/short_report.pdf`) is included, summarizing:
 ## Repository Contents
 
 - results/ # mean_std.csv, full_stats_seeds.csv
-- report/ # short_report.pdf (summary of the study)
+- report/ # VALUE_BYPASS_ATTENTION_A_SIMPLE_VALUE_PATH_VARIANT_FOR_BERT_ON_SQUAD_V1.pdf (summary of the study)
 - models/ # checkpoints of some models. other tests are lost due to resources being cut.
 - root # contains sources. run full_recital.py for pretraining-psp-squadv1 test. use configs.py to modify bert models. untested in other conditions.
 
