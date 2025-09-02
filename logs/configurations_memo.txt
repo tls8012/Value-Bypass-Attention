@@ -1,0 +1,71 @@
+SEEDS to use: 42, 2, 8, 9, 5 # 42 and first 4 numbers from 1 to 9 shuffled 
+
+original: # here, learnt alphas are learnt from start
+    WARM_STEPS = 20000
+
+    LONG_STEPS = 50000
+
+    BATCH = 64
+
+    SEQ_WARM = 128
+
+    SEQ_LONG = 512
+
+    LR = 1E-4
+
+    HIDDEN_LAYERS = 4
+
+    HIDDEN_DIM = 256
+
+    HEADS = 4
+
+    NONLIN_ALPHA = 0.5
+
+    GRAD_ACCUM_STEPS = 4
+
+    SAVE_EVERY = 25000
+
+    LOG_EVERY = 1000
+
+    VOCAB_SIZE = 30522 #30522
+
+    DATASET_PATH = "./dataset/wiki_en/" # "wiki_en", wikitext_mini
+
+    WANDB_PROJECT = "augv3"
+    WANDB_PSP = "pspv3"
+    WANDB_SQUAD = "squadv3"
+
+8 layers:
+    WARM_STEPS = 100000
+
+    LONG_STEPS = 25000
+
+    BATCH = 48
+
+    SEQ_WARM = 128
+
+    SEQ_LONG = 512
+
+    LR = 1E-4
+
+    HIDDEN_LAYERS = 6
+
+    HIDDEN_DIM = 512
+
+    HEADS =8
+
+    NONLIN_ALPHA = 0.5
+
+    GRAD_ACCUM_STEPS = 4
+
+    SAVE_EVERY = 25000
+
+    LOG_EVERY = 1000
+
+    VOCAB_SIZE = 30522 #30522
+
+    DATASET_PATH = "./dataset/wiki_en/" # "wiki_en", wikitext_mini
+
+    WANDB_PROJECT = "augv"
+    WANDB_PSP = "pspv"
+    WANDB_SQUAD = "squadv"

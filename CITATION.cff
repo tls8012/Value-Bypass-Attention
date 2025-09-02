@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Value-Bypass Attention: A Simple Value-Path Variant for BERT on SQuAD v1"
+authors:
+  - family-names: "Shin"
+    given-names: "D.B."
+version: "1.0.0"
+date-released: 2025-09-03
+url: "https://github.com/username/repo"
+abstract: "A small experimental report exploring a simple value-path bypass variant in BERT self-attention on SQuAD v1."
+license: "Apache-2.0"
