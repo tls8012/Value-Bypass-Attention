@@ -9,3 +9,4 @@ date-released: 2025-09-03
 url: "https://github.com/tls8012/Value-Bypass-Attention"
 abstract: "A small experimental report exploring a simple value-path bypass variant in BERT self-attention on SQuAD v1."
 license: "Apache-2.0"
+doi: "10.5281/zenodo.17038961" 

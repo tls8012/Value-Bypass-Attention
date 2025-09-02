@@ -95,7 +95,7 @@ A short report (`report/VALUE_BYPASS_ATTENTION_A_SIMPLE_VALUE_PATH_VARIANT_FOR_B
 - Code, report, and this README were assisted with generative AI.
 
 ---
-
+[![DOI](https://zenodo.org/badge/1049205298.svg)](https://doi.org/10.5281/zenodo.17038960)
 If you use this repository, please cite it:
 ```bibtex
 @misc{shin2025valuebypass,
