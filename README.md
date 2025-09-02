@@ -4,7 +4,7 @@ This repository contains experimental results for a simple modification to the B
 The **value-bypass variant (v)** augments the value vectors with a shortcut from the input representation:
 
 ```math
-V' = V + 0.5 • ReLU(x)
+V' = V + α • ReLU(x)
 ```
 
 The scaling factor (0.5) was chosen arbitrarily.  
@@ -97,10 +97,12 @@ A short report (`report/short_report.pdf`) is included, summarizing:
 ---
 
 If you use this repository, please cite it:
+```bibtex
 @misc{shin2025valuebypass,
   author       = {D.B. Shin},
   title        = {Value-Bypass Attention: A Simple Value-Path Variant for BERT on SQuAD v1},
   year         = {2025},
-  howpublished = {\url{https://github.com/username/repo}},
+  howpublished = {\url{https://github.com/tls8012/Value-Bypass-Attention}},
   note         = {Simple experimental report}
 }
+```

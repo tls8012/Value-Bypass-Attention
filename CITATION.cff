@@ -6,6 +6,6 @@ authors:
     given-names: "D.B."
 version: "1.0.0"
 date-released: 2025-09-03
-url: "https://github.com/username/repo"
+url: "https://github.com/tls8012/Value-Bypass-Attention"
 abstract: "A small experimental report exploring a simple value-path bypass variant in BERT self-attention on SQuAD v1."
 license: "Apache-2.0"
